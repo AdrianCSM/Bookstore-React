@@ -6,51 +6,57 @@ This is a single page app (SPA) that allows you to add, remove and filter books.
 
 ## Live Demo
 
-[Link to the live demo](https://adriancsm.github.io/Bookstore-React/) - WIP
+To Be Added
 
-## Built with :
+## Built With
 
-- React
-- ESlint
-- Stylelint
+- React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
+- React Testing Library
+- React Router v6
+- Redux
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
+To get a local copy up and running follow these simple example steps.
 
-## Available Scripts
+### Prerequisites
 
-In the project directory, you can run:
+The basic requirements for building the executable are:
 
-### `npm start`
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Cloning the project
 
-### `npm test`
+```
+git clone  https://github.com/AdrianCSM/Bookstore-React <Your-Build-Directory>
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting packages and dependencies
+To get all package modules required to build the project run:
+```
+npm install
+```
+every package module required to build the project is listed in the package.json file. this is used as a reference to get all dependencies.
 
-### `npm run build`
+## Building 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To build the project run:
+```
+npm run build
+```
+after you run this sucessfully you'd locate the build from in the ```build``` folder located from the parent directory of the project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-## Acknowlegments
-
----
+To run the program on a browser through a server run this command in your cli
+```
+npm start
+```
+This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
 
 ## Author
 
