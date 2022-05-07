@@ -10,8 +10,8 @@ export const addBook = (payload) => ({
 
 export const removeBook = (payload) => ({
   type: REMOVE_BOOK,
-  payload
-})
+  payload,
+});
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
