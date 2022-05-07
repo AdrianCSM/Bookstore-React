@@ -1,7 +1,7 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import BookItem from './BookItem';
 import AddForm from './Form';
-import { useSelector } from 'react-redux';
 
 function BookPage() {
   const myBooks = useSelector((store) => store.booksReducer);
@@ -9,7 +9,7 @@ function BookPage() {
     <div>
       {
         myBooks.map(
-          (book) => (<BookItem
+          (book) => (<BookItem // eslint-disable-line
             key={book.id}
             id={book.id}
             title={book.title}

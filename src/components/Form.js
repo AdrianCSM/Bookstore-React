@@ -44,7 +44,7 @@ function AddForm() {
             <option value="Romance">Romance</option>
           </select>
         </label>
-        <button type="submit" className="Add">Add onClick={() => submitBookToStore(title, author)}</button>
+        <button type="submit" className="Add" onClick={() => submitBookToStore(title, author)}>Add</button>
       </form>
     </div>
   );

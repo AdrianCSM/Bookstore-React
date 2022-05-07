@@ -4,14 +4,14 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from './components/Header';
-import CategoriesPage from './components/Categories';
+import CategoriesPage from './redux/categories/categories';
 import BookPage from './components/BookPage';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
- <Header />
+      <Header />
       <Routes>
         <Route path="/react-bookstore/" element={<BookPage />} />
         <Route path="/Categories/" element={<CategoriesPage />} />
