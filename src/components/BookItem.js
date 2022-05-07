@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/books';
 
+function BookItem(props) {
   const {
     id,
     title,
@@ -12,7 +13,6 @@ import { removeBook } from '../redux/books/books';
   const dispatch = useDispatch();
   const remove = () => dispatch(removeBook(id));
 
-function BookItem() {
   return (
     <div className="BookContainer">
       <div className="TitleContainer">
@@ -32,7 +32,7 @@ function BookItem() {
         <div className="progressContainer" />
         <p>Current Chapter</p>
         <p>Chapter 17</p>
-        <button type="button" className="ProgressBtn btn">Update Progress</button>
+        <button type="button" className="ProgressBtn Btn">Update Progress</button>
       </div>
     </div>
   );
